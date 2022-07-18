@@ -26,7 +26,7 @@ body {
   .row {
     list-style: none;
     display: flex;
-    padding: 1px;
+    padding: 0px;
     margin: 4px;
   }
   
@@ -37,7 +37,7 @@ body {
     border-radius: 0.4em;
     line-height: 3em;
     letter-spacing: 1px;
-    margin: 0.3em;
+    margin: 0.2em;
     transition: 0.3s;
     text-align: center;
     font-size: 1em;

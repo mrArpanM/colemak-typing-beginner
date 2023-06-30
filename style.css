@@ -1,4 +1,4 @@
-body {
+  body {
     background-color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -6,7 +6,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 99%;
+    max-height: 100vh;
   }
   
   .title {
@@ -15,6 +16,14 @@ body {
     margin-top: 3em;
     margin-bottom: 3em;
     font-size: 1em;
+    letter-spacing: 0.3em;
+  }
+
+  .footer {
+    color: mintcream;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 0.75em;
     letter-spacing: 0.3em;
   }
   
